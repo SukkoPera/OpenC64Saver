@@ -30,18 +30,18 @@ LIBS:contrib
 LIBS:valves
 LIBS:relays
 LIBS:Sukko
-LIBS:OpenC64Saver-cache
+LIBS:C64Saver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open C64 Saver"
-Date "2017-08-27"
+Date "2017-09-02"
 Rev ""
-Comp "Ray Carlsen CET - Carlsen Electronics"
-Comment1 "http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg"
-Comment2 ""
+Comp "SukkoPera"
+Comment1 "Original circuit by Ray Carlsen CET - Carlsen Electronics"
+Comment2 "http://personalpages.tds.net/~~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg"
 Comment3 ""
 Comment4 ""
 $EndDescr
