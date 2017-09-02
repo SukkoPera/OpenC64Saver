@@ -2,5 +2,5 @@
   (lib (name SRD-05VDC-SL-C)(type Eagle)(uri /home/sukko/Documents/kicad/lib/SRD-05VDC-SL-C.lbr)(options "")(descr ""))
   (lib (name w_conn_gmkds)(type KiCad)(uri /home/sukko/Documents/kicad/lib/kicad_libs/modules/w_conn_gmkds.pretty)(options "")(descr ""))
   (lib (name Sukko)(type KiCad)(uri /home/sukko/Documents/kicad/C64Cart/lib/Sukko.pretty)(options "")(descr ""))
-  (lib (name C64Saver)(type KiCad)(uri "$(KIPRJMOD)/C64Saver.pretty")(options "")(descr ""))
+  (lib (name C64Saver)(type KiCad)(uri "$(KIPRJMOD)/OpenC64Saver.pretty")(options "")(descr ""))
 )

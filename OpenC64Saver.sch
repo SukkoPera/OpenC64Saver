@@ -30,13 +30,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:relays
 LIBS:Sukko
-LIBS:C64Saver-cache
+LIBS:OpenC64Saver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "C64 Saver"
+Title "Open C64 Saver"
 Date "2017-08-27"
 Rev ""
 Comp "Ray Carlsen CET - Carlsen Electronics"

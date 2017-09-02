@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/sukko/Documents/kicad/OpenC64Saver/C64Saver.sch)
+    (source /home/sukko/Documents/kicad/OpenC64Saver/OpenC64Saver.sch)
     (date "sab 02 set 2017 20:09:41 CEST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
@@ -9,7 +9,7 @@
         (company "Ray Carlsen CET - Carlsen Electronics")
         (rev)
         (date 2017-08-27)
-        (source C64Saver.sch)
+        (source OpenC64Saver.sch)
         (comment (number 1) (value http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
