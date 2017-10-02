@@ -1,4 +1,4 @@
-update=lun 24 lug 2017 23:10:03 CEST
+update=Mon 02 Oct 2017 21:33:12 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=relays
 LibName31=/home/sukko/Documents/kicad/lib/Sukko
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
