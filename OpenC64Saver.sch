@@ -122,44 +122,28 @@ F 3 "" H 6050 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2150 4200 2300
-Wire Wire Line
-	4200 2300 4200 2900
+	4200 2150 4200 3050
 Wire Wire Line
 	4200 2900 4300 2900
 Wire Wire Line
-	4200 3500 4200 3600
+	4200 3350 4200 3600
 Wire Wire Line
-	4200 3500 4600 3500
-Wire Wire Line
-	4600 3500 5350 3500
-Wire Wire Line
-	5350 3500 6050 3500
-Wire Wire Line
-	6050 3500 6600 3500
+	4200 3500 6600 3500
 Wire Wire Line
 	4600 3500 4600 3100
 Connection ~ 4200 2900
 Wire Wire Line
-	4600 1950 4600 2600
-Wire Wire Line
-	4600 2600 4600 2700
+	4600 1950 4600 2700
 Wire Wire Line
 	4600 2600 5050 2600
 Wire Wire Line
 	5350 3500 5350 2800
 Connection ~ 4600 3500
 Wire Wire Line
-	5350 2000 5350 2150
-Wire Wire Line
-	5350 2150 5350 2300
-Wire Wire Line
-	5350 2300 5350 2400
+	5350 2000 5350 2400
 Connection ~ 4200 2300
 Wire Wire Line
-	5100 2300 5350 2300
-Wire Wire Line
-	5350 2300 6050 2300
+	5100 2300 6050 2300
 Wire Wire Line
 	4200 2300 4800 2300
 Wire Wire Line
@@ -169,15 +153,9 @@ Wire Wire Line
 	6050 3500 6050 2750
 Connection ~ 5350 3500
 Wire Wire Line
-	5350 1350 5350 1550
+	5350 1350 5350 1700
 Wire Wire Line
-	5350 1550 5350 1700
-Wire Wire Line
-	4200 1350 4600 1350
-Wire Wire Line
-	4600 1350 5350 1350
-Wire Wire Line
-	5350 1350 6600 1350
+	4200 1350 6600 1350
 Wire Wire Line
 	4200 1350 4200 1400
 $Comp
@@ -273,9 +251,7 @@ F 3 "" H 7200 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 2150 6700 2250
-Wire Wire Line
-	6700 2250 6700 2350
+	6700 2150 6700 2350
 Wire Wire Line
 	6700 2250 7200 2250
 Wire Wire Line
@@ -439,12 +415,8 @@ F 1 "5K" V 4200 3150 50  0000 L CNN
 F 2 "pth_resistors:trimmer_vishay_64w" V 4130 3200 50  0001 C CNN
 F 3 "" H 4200 3200 50  0000 C CNN
 	1    4200 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4200 3350 4200 3500
-Wire Wire Line
-	4200 2900 4200 3050
 Text Notes 2600 2250 0    60   ~ 0
 A different R1 might be needed,\ndepending on the particular\nZener diode used.\nI had to use 2.2k, for instance.
 $EndSCHEMATC
