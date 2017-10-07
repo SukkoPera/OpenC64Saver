@@ -29,8 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:relays
-LIBS:Sukko
-LIBS:C64Saver-cache
+LIBS:OpenC64Saver-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,17 +67,6 @@ F 3 "" H 4500 2900 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
-U 1 1 59765DBB
-P 4200 3200
-F 0 "R2" V 4280 3200 50  0000 C CNN
-F 1 "10k" V 4200 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 3200 50  0001 C CNN
-F 3 "" H 4200 3200 50  0000 C CNN
-	1    4200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 59765E30
 P 4200 3600
@@ -94,7 +82,7 @@ L R R1
 U 1 1 59765E4A
 P 4200 2000
 F 0 "R1" V 4280 2000 50  0000 C CNN
-F 1 "2.2k" V 4200 2000 50  0000 C CNN
+F 1 "820" V 4200 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 2000 50  0001 C CNN
 F 3 "" H 4200 2000 50  0000 C CNN
 	1    4200 2000
@@ -134,28 +122,44 @@ F 3 "" H 6050 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 2150 4200 3050
+	4200 2150 4200 2300
 Wire Wire Line
-	3800 2900 4300 2900
+	4200 2300 4200 2900
 Wire Wire Line
-	4200 3350 4200 3600
+	4200 2900 4300 2900
 Wire Wire Line
-	3800 3500 6600 3500
+	4200 3500 4200 3600
+Wire Wire Line
+	4200 3500 4600 3500
+Wire Wire Line
+	4600 3500 5350 3500
+Wire Wire Line
+	5350 3500 6050 3500
+Wire Wire Line
+	6050 3500 6600 3500
 Wire Wire Line
 	4600 3500 4600 3100
 Connection ~ 4200 2900
 Wire Wire Line
-	4600 1950 4600 2700
+	4600 1950 4600 2600
+Wire Wire Line
+	4600 2600 4600 2700
 Wire Wire Line
 	4600 2600 5050 2600
 Wire Wire Line
 	5350 3500 5350 2800
 Connection ~ 4600 3500
 Wire Wire Line
-	5350 2000 5350 2400
+	5350 2000 5350 2150
+Wire Wire Line
+	5350 2150 5350 2300
+Wire Wire Line
+	5350 2300 5350 2400
 Connection ~ 4200 2300
 Wire Wire Line
-	5100 2300 6050 2300
+	5100 2300 5350 2300
+Wire Wire Line
+	5350 2300 6050 2300
 Wire Wire Line
 	4200 2300 4800 2300
 Wire Wire Line
@@ -165,9 +169,15 @@ Wire Wire Line
 	6050 3500 6050 2750
 Connection ~ 5350 3500
 Wire Wire Line
-	5350 1350 5350 1700
+	5350 1350 5350 1550
 Wire Wire Line
-	4200 1350 6600 1350
+	5350 1550 5350 1700
+Wire Wire Line
+	4200 1350 4600 1350
+Wire Wire Line
+	4600 1350 5350 1350
+Wire Wire Line
+	5350 1350 6600 1350
 Wire Wire Line
 	4200 1350 4200 1400
 $Comp
@@ -263,7 +273,9 @@ F 3 "" H 7200 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 2150 6700 2350
+	6700 2150 6700 2250
+Wire Wire Line
+	6700 2250 6700 2350
 Wire Wire Line
 	6700 2250 7200 2250
 Wire Wire Line
@@ -366,21 +378,6 @@ $EndComp
 Wire Wire Line
 	6700 2650 6700 2750
 Connection ~ 6700 2250
-$Comp
-L R_Variable R7
-U 1 1 59768CBA
-P 3800 3200
-F 0 "R7" V 3900 3150 50  0000 L CNN
-F 1 "5K" V 3800 3150 50  0000 L CNN
-F 2 "pth_resistors:trimmer_vishay_64w" V 3730 3200 50  0001 C CNN
-F 3 "" H 3800 3200 50  0000 C CNN
-	1    3800 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3800 2900 3800 3050
-Wire Wire Line
-	3800 3350 3800 3500
 Connection ~ 4200 3500
 Wire Wire Line
 	6600 1350 6600 1550
@@ -433,4 +430,21 @@ Wire Wire Line
 	9600 1050 9600 800 
 Text Notes 6850 2350 0    60   ~ 0
 OUTPUT
+$Comp
+L R_Variable R2
+U 1 1 59768CBA
+P 4200 3200
+F 0 "R2" V 4300 3150 50  0000 L CNN
+F 1 "5K" V 4200 3150 50  0000 L CNN
+F 2 "pth_resistors:trimmer_vishay_64w" V 4130 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0000 C CNN
+	1    4200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3350 4200 3500
+Wire Wire Line
+	4200 2900 4200 3050
+Text Notes 2600 2250 0    60   ~ 0
+A different R1 might be needed,\ndepending on the particular\nZener diode used.\nI had to use 2.2k, for instance.
 $EndSCHEMATC
