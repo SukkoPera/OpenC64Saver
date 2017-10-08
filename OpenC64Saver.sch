@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:relays
-LIBS:Sukko
 LIBS:OpenC64Saver-cache
 EELAYER 25 0
 EELAYER END
@@ -40,7 +39,7 @@ Title "Open C64 Saver"
 Date "2017-08-27"
 Rev ""
 Comp "Ray Carlsen CET - Carlsen Electronics"
-Comment1 "http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg"
+Comment1 "http://personalpages.tds.net/~~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg"
 Comment2 ""
 Comment3 ""
 Comment4 ""
