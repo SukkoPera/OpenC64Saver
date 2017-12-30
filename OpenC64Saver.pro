@@ -1,4 +1,4 @@
-update=Sat 07 Oct 2017 21:47:14 CEST
+update=sab 30 dic 2017 17:13:17 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -69,3 +67,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=relays
+[general]
+version=1
