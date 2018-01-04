@@ -36,8 +36,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Open C64 Saver"
-Date "2017-09-02"
-Rev ""
+Date "2018-01-04"
+Rev "3"
 Comp "SukkoPera"
 Comment1 "Original circuit by Ray Carlsen CET - Carlsen Electronics"
 Comment2 "http://personalpages.tds.net/~~rcarlsen/cbm/c64/SAVER/saver%20schematic.jpg"
