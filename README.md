@@ -1,6 +1,6 @@
 ## OpenC64Saver
 
-OpenC64Saver is an Open Hardware implementation of the [Computer Saver device developed by Ray Carlsen](http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver.txt), mainly targeted at Commodore 64 users.
+OpenC64Saver is an Open Hardware implementation of the [Computer Saver device developed by Ray Carlsen](http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver.txt), mainly targeted at Commodore 64 users, but also usable on VIC-20 computers.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenC64Saver/master/doc/render-top.png)
 
@@ -41,7 +41,9 @@ power connector and the power switch. There are at least five board
 versions of that computer, each with a different PC board layout, and 
 the physical connections will be specific for each board.
 
-Ray's motherboard pictures can be found at http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/MOBOs/.
+Ray's C64 motherboard pictures can be found at http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/MOBOs/.
+
+For the VIC-20 see [this](http://personalpages.tds.net/~rcarlsen/cbm/vic20/VIC20CR/saver%20mod.jpg). Note that you will have to cut a trace.
 
 ### Configuration
 OpenC64Saver includes a trimmer to set the cut-off voltage:
@@ -67,4 +69,18 @@ To properly set the cut-out voltage you will need a variable DC supply and a vol
 trip point will read high, and if hot from soldering, the trip point will be low. Therefore, the mounting of the Saver components, if inside the computer, should be away from all heat producing components.
 
 ### License
-OpenC64Saver is Open Hardware.
+OpenC64Saver is Open Hardware. If you make any modifications to the board, please contribute them back.
+
+### Support the Project
+Since the project is open you are free to get the PCBs made by your preferred manufacturer, however in case you want to support the development, you can order them from PCBWay through this link:
+
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/W41100ASM21_OpenC64Saver_3_gerbers.html)
+
+You get cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
+
+Also, if you still have to register to that site, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
+
+Again, if you want to use another manufacturer, feel free to, don't feel obligated :).
+
+### Get Support
+If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
