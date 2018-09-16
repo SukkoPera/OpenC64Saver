@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# OpenC64Saver-rescue:+5V
+# +5V
 #
-DEF OpenC64Saver-rescue:+5V #PWR 0 0 Y Y 1 F P
+DEF +5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenC64Saver-rescue:+5V" 0 140 50 H V C CNN
+F1 "+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:C
+# C
 #
-DEF OpenC64Saver-rescue:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "OpenC64Saver-rescue:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -34,11 +34,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:CONN_01X01
+# CONN_01X01
 #
-DEF OpenC64Saver-rescue:CONN_01X01 J 0 40 Y N 1 F N
+DEF CONN_01X01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "OpenC64Saver-rescue:CONN_01X01" 100 0 50 V V C CNN
+F1 "CONN_01X01" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -54,11 +54,11 @@ X P1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:D
+# D
 #
-DEF OpenC64Saver-rescue:D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenC64Saver-rescue:D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -77,11 +77,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:D_Zener
+# D_Zener
 #
-DEF OpenC64Saver-rescue:D_Zener D 0 40 N N 1 F N
+DEF D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "OpenC64Saver-rescue:D_Zener" 0 -100 50 H V C CNN
+F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -100,11 +100,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:GND
+# GND
 #
-DEF OpenC64Saver-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "OpenC64Saver-rescue:GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -113,11 +113,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:LED_Dual_ACA
+# LED_Dual_ACA
 #
-DEF OpenC64Saver-rescue:LED_Dual_ACA D 0 0 Y N 1 F N
+DEF LED_Dual_ACA D 0 0 Y N 1 F N
 F0 "D" 0 225 50 H V C CNN
-F1 "OpenC64Saver-rescue:LED_Dual_ACA" 0 -250 50 H V C CNN
+F1 "LED_Dual_ACA" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -139,11 +139,11 @@ X A2 3 300 -100 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:PN2222A
+# PN2222A
 #
-DEF OpenC64Saver-rescue:PN2222A Q 0 0 Y N 1 F N
+DEF PN2222A Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "OpenC64Saver-rescue:PN2222A" 200 0 50 H V L CNN
+F1 "PN2222A" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -163,11 +163,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:PWR_FLAG
+# PWR_FLAG
 #
-DEF OpenC64Saver-rescue:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "OpenC64Saver-rescue:PWR_FLAG" 0 150 50 H V C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -176,11 +176,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:R
+# R
 #
-DEF OpenC64Saver-rescue:R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "OpenC64Saver-rescue:R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -194,11 +194,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:R_Variable
+# R_Variable
 #
-DEF OpenC64Saver-rescue:R_Variable R 0 0 N Y 1 F N
+DEF R_Variable R 0 0 N Y 1 F N
 F0 "R" 100 -100 50 V V L CNN
-F1 "OpenC64Saver-rescue:R_Variable" -100 -50 50 V V L CNN
+F1 "R_Variable" -100 -50 50 V V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -212,11 +212,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:SRD-05VDC-SL-C
+# SRD-05VDC-SL-C
 #
-DEF OpenC64Saver-rescue:SRD-05VDC-SL-C RL 0 40 Y Y 1 F N
+DEF SRD-05VDC-SL-C RL 0 40 Y Y 1 F N
 F0 "RL" 650 350 50 H V L CNN
-F1 "OpenC64Saver-rescue:SRD-05VDC-SL-C" 650 250 50 H V L CNN
+F1 "SRD-05VDC-SL-C" 650 250 50 H V L CNN
 F2 "Relays_THT:Relay_SPDT_SONGLE_SRD-05VDC-SL-C" 650 150 50 H I L CNN
 F3 "" 200 -200 50 H V C CNN
 $FPLIST
@@ -251,11 +251,11 @@ X ~ 5 0 500 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:Screw_Terminal_1x03
+# Screw_Terminal_1x03
 #
-DEF OpenC64Saver-rescue:Screw_Terminal_1x03 J 0 30 Y N 1 F N
+DEF Screw_Terminal_1x03 J 0 30 Y N 1 F N
 F0 "J" 0 350 50 H V C TNN
-F1 "OpenC64Saver-rescue:Screw_Terminal_1x03" -150 0 50 V V C TNN
+F1 "Screw_Terminal_1x03" -150 0 50 V V C TNN
 F2 "" 0 -325 50 H I C CNN
 F3 "" -25 100 50 H I C CNN
 $FPLIST
@@ -279,11 +279,11 @@ X ~ 3 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# OpenC64Saver-rescue:VCC
+# VCC
 #
-DEF OpenC64Saver-rescue:VCC #PWR 0 0 Y Y 1 F P
+DEF VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "OpenC64Saver-rescue:VCC" 0 150 50 H V C CNN
+F1 "VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

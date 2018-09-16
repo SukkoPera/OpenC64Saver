@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OpenC64Saver-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenC64Saver-rescue.lib)(options "")(descr ""))
+)
