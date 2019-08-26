@@ -27,6 +27,8 @@ round C64 version because four pin square DIN connectors are not
 available. - Ray Carlsen
 
 ### Installation
+
+#### Internal
 > There are several ways to add this protection device to your system.
 One way is to install the components or a completed module inside the
 computer. That way, it is protected from any supply plugged into it. If
@@ -44,6 +46,13 @@ the physical connections will be specific for each board.
 Ray's C64 motherboard pictures can be found at http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/MOBOs/.
 
 For the VIC-20 see [this](http://personalpages.tds.net/~rcarlsen/cbm/vic20/VIC20CR/saver%20mod.jpg). Note that you will have to cut a trace.
+
+#### External
+You can also put your OpenC64Saver in an external box, by using one of those common small boxes for electronic stuff. If you have a 3D printer available, you can also print [this excellent case by Ruben Coolen](https://www.thingiverse.com/thing:3795541) (Thanks!!!).
+
+The connectors you will need are called *DIN-7* (formally *DIN 45329*) and are very common and easy to find in both cable- and panel-mount versions. Please refer to [this page](https://www.c64-wiki.com/wiki/Power_Supply_Connector) for the wiring.
+
+This way you will be able to use a single OpenC64Saver with different computers, both C64s and VIC-20s.
 
 ### Configuration
 OpenC64Saver includes a trimmer to set the cut-off voltage:
