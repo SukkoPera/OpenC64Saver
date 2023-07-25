@@ -1,6 +1,6 @@
 ## OpenC64Saver
 
-OpenC64Saver is an Open Hardware implementation of the [Computer Saver device developed by Ray Carlsen](http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/saver.txt), mainly targeted at Commodore 64 users, but also usable on VIC-20 computers.
+OpenC64Saver is an Open Hardware implementation of the [Computer Saver device developed by Ray Carlsen](https://portcommodore.com/rcarlsen/cbm/c64/SAVER/saver.txt), mainly targeted at Commodore 64 users, but also usable on VIC-20 computers.
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenC64Saver/master/doc/render-top.png)
 
@@ -43,9 +43,9 @@ power connector and the power switch. There are at least five board
 versions of that computer, each with a different PC board layout, and
 the physical connections will be specific for each board.
 
-Ray's C64 motherboard pictures can be found at http://personalpages.tds.net/~rcarlsen/cbm/c64/SAVER/MOBOs/.
+Ray's C64 motherboard pictures can be found [here](https://portcommodore.com/rcarlsen/cbm/c64/SAVER/MOBOs/).
 
-For the VIC-20 see [this](http://personalpages.tds.net/~rcarlsen/cbm/vic20/VIC20CR/saver%20mod.jpg). Note that you will have to cut a trace.
+For the VIC-20 see [this](https://portcommodore.com/rcarlsen/cbm/vic20/VIC20CR/saver%20mod.jpg). Note that you will have to cut a trace.
 
 #### External
 You can also put your OpenC64Saver in an external box, by using one of those common small boxes for electronic stuff. If you have a 3D printer available, you can also print [this excellent case by Ruben Coolen](https://www.thingiverse.com/thing:3795541) (Thanks!!!).
@@ -95,6 +95,3 @@ Also, if you still have to register to that site, [you can use this link](https:
 Again, if you want to use another manufacturer, feel free to, don't feel obligated :). But then you can buy me a coffee if you want:
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-### Get Help
-If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
